@@ -133,7 +133,6 @@ public class MyOrderDeatil extends AppCompatActivity {
             status.setText(getResources().getString(R.string.pending));
         } else if (stats.equals("1")) {
             status.setText(getResources().getString(R.string.confirm));
-
         }
         else if (stats.equals("2")) {
             status.setText(getResources().getString(R.string.assigned));

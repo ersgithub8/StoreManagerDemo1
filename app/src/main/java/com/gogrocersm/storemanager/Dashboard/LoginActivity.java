@@ -183,10 +183,26 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                         String user_email = obj.getString("user_email");
                         String user_phone = obj.getString("user_phone");
                         String user_image = obj.getString("user_image");
+                        String user_lat=obj.getString("lat");
+                        String user_lang=obj.getString("lang");
+
                         Session_management sessionManagement = new Session_management(LoginActivity.this);
                         sessionManagement.createLoginSession(user_id, user_email, user_fullname, user_phone, user_image, "", "", "", "", password);
 
                        // .makeText(LoginActivity.this, user_id, Toast.LENGTH_SHORT).show();
+                        if(user_lat.equals("")|| user_lang.equals("")){
+                            Toast.makeText(LoginActivity.this, "Please pick your location", Toast.LENGTH_SHORT).show();
+                            Intent intent=new Intent(LoginActivity.this,EditProfile.class);
+                            startActivity(intent);
+                            finish();
+
+
+                            return;
+
+
+
+                        }
+
                         Intent i = new Intent(LoginActivity.this, MainActivity.class);
                         i.putExtra("userid",user_id);
                         startActivity(i);
