@@ -182,7 +182,8 @@
     <string name="continue_btn" translatable="false">Continue</string>
     <string name="btn_snd" translatable="false">Send</string>
     <string name="cust_ph" translatable="false">Customer Phone</string>
-    <string name="today_order" translatable="false">Today Order</string>
+<!--    <string name="today_order" translatable="false">Today Order</string>-->
+    <string name="today_order" translatable="false">Orders</string>
     <string name="next_order" translatable="false">Next Day Order</string>
     <!-- row_delivery_time.xml -->
     <string name="tv_deli_socity" translatable="false">Society:</string>
