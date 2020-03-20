@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gogrocersm.storemanager.Dashboard.Terms_condition">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="  Terms &amp; Conditions"
+        android:gravity="center_vertical"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="12dp"
+        android:textColor="#000"
+        android:gravity="start"
+        android:layout_height="match_parent"
+        android:text="1). Vender should take care of quality and quantity of the order which placed by the customer\n
+\n
+2). The quantity &amp; measurement of the item that the customer has ordered should be correct. If there is  any kind of mistake in the quantity  &amp; measurement. So company  will  not make  payment of that item.\n
+\n
+3). Vendors should have to provide original quality product to the customer. If vendors compromise with quality of any item. So company will not pay any cost of that item. \n
+\n
+4). If any of the item is out of stock which is listed in your menu list then you have to inform earlier to our team. I you have not informed then you must arrange the item  ordered by the customer .\n
+\n
+5).The payment of product will be done by the company to you in cash or account.\n
+\n
+6). If you cancel the order after accepting the order, then you have to pay the appropriate prescribed penalty;  if you do not give\n the penalty, you will be excluded from the vendor list.
+\n
+7). Within 15 minutes of the arrival of the order, you will have to properly pack the goods and deliver them to the delivery boy.\n
+\n
+8). If the price of any goods decreases or increases, you have to inform the company a day before.
+"/>
+
+</LinearLayout>
