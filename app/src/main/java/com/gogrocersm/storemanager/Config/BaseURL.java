@@ -24,9 +24,9 @@ public class BaseURL {
     public static final String KEY_DELIVERY_BOY_NAME = "BOY_NAME";
     public static final String KEY_ORDER_ID = "ORDER_ID";
 
-    public static String BASE_URL = "http://groomall-fontend.eparking.website/backend/store/";
+    public static String BASE_URL = "https://gromal.finalyearprojects.website/backend/store/";
 
-    public static String BASE_URLGOGrocer = "http://groomall-fontend.eparking.website/backend/";
+    public static String BASE_URLGOGrocer = "https://gromal.finalyearprojects.website/backend/";
     public static String IMG_PROFILE_URL = BASE_URL + "uploads/profile/";
     public static String LOGIN_URL = BASE_URL + "index.php/api/login";
     public static String DELIVERY_BOY = BASE_URL + "index.php/api/delivery_boy";
@@ -40,7 +40,7 @@ public class BaseURL {
     public static String update_order = BASE_URL + "index.php/api/up_order";
     public static String DAshborad_URL = BASE_URL + "index.php/api/dashboard?storeid=";
     public static String OrderDetail = BASE_URLGOGrocer + "index.php/api/order_details";
-    public static String IMG_PRODUCT_URL = "http://groomall-fontend.eparking.website/backend/store/uploads/products/";
+    public static String IMG_PRODUCT_URL = "https://gromal.finalyearprojects.website/backend/store/uploads/products/";
 
     //Dashboard Items
     public static String ALL_PRODUCTS_URL = BASE_URL + "index.php/api/all_products?storeid=";
