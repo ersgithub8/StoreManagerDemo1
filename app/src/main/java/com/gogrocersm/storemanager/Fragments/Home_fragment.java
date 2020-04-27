@@ -146,7 +146,7 @@ public class Home_fragment extends Fragment {
     private void getNextDayOrders() {
         try {
             RequestQueue rq = Volley.newRequestQueue(getActivity());
-            StringRequest postReq = new StringRequest(Request.Method.GET, BaseURL.DAshborad_URL,
+            StringRequest postReq = new StringRequest(Request.Method.GET, BaseURL.DAshborad_URL+getuserid,
                     new Response.Listener<String>() {
                         @Override
                         public void onResponse(String response) {
@@ -186,6 +186,7 @@ public class Home_fragment extends Fragment {
                                     brandModel.receiver_mobile = json_data.getString("receiver_mobile");
                                     data.add(brandModel);
                                 }
+//                                Toast.makeText(getActivity(), "abc", Toast.LENGTH_SHORT).show();
                                 my_nextday_order_adapter = new My_Nextday_Order_Adapter(getActivity(), data);
                                 rv_next_day_orders.setAdapter(my_nextday_order_adapter);
                                 rv_next_day_orders.refreshDrawableState();
